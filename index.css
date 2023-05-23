@@ -1,0 +1,236 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: #f3f5f7; /* Set the background color of the body */
+  font-family: "Product Sans regular", sans-serif; /* Set the font family */
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  /* border: 1px solid black; */
+  height: 100vh;
+  width: 88vw;
+  gap: 4%;
+}
+
+.signup-left-div {
+  width: 30%;
+  /* border: 1px solid red; */
+  background-image: url("https://www.semikart.com/img/new2018/home/bom/SigninSignupBG.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 60px 0 28px 0;
+}
+
+.features-lists {
+  padding-left: 0;
+}
+
+ul li {
+  list-style: none;
+  font-size: 14px;
+}
+
+/* Styling for the already registered div */
+.already-registered-div {
+  display: flex;
+  gap: 20px;
+}
+
+.activation-button {
+  background-color: #ad0000;
+  border-radius: 50px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  /* font-weight: 600; */
+  padding: 7px;
+  height: 35px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Styling for the right div in the signup section */
+.signup-right-div {
+  /* border: 1px solid black; */
+  width: 66%;
+  overflow-y: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.signup-right-div::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.signup-right-div {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.signup-form-container {
+  color: #495057;
+  padding: 0 10px 0 0;
+}
+
+/* Styling for the table container */
+.table-container {
+  border: 1px solid rgb(197, 195, 195);
+  border-radius: 4px;
+  /* padding: 10px; */
+  background-color: white;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+
+.table-heading {
+  color: #202128;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: -5px;
+  font-size: 18px;
+}
+
+.table-fields {
+  margin-top: -15px;
+}
+
+.form-label {
+  font-size: 14px;
+}
+
+/* Custom Styling for input fields on focus which will remove the default blue border and shadow*/
+input.form-control:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+}
+
+/* Custom Styling for input fields on focus which will remove the default blue border and shadow*/
+select.form-select:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #ced4da;
+}
+
+.check-div {
+  margin-top: 35px;
+}
+
+/* Styling for disabling input number arrows */
+.input-no-arrows::-webkit-inner-spin-button,
+.input-no-arrows::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.referral-apply-btn-div {
+  margin-top: 37px;
+}
+
+/* Styling for the referral apply button */
+.referral-apply-btn {
+  border: 2px solid #ad0000;
+  border-radius: 50px;
+  color: #ad0000;
+  font-weight: 500;
+  width: 90px;
+  height: 40px;
+  background-color: white;
+}
+
+.human-verification {
+  margin-top: 20px;
+}
+
+/* Styling for the create account button */
+.create-account-btn {
+  width: 140px;
+  background-color: #ad0000;
+  border-radius: 50px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px;
+  height: 35px;
+}
+
+.mobile-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.mobile-container .col-xl-4,
+.mobile-container .col-xl-2 {
+  flex: 1;
+}
+
+@media only screen and (max-width: 1100px) {
+  .activation-button {
+    padding: 10px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+     .activation-button {
+    padding: 10px;
+    height: 70px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main-container {
+    width: 95vw;
+    gap: 2%;
+  }
+
+  .signup-left-div {
+    display: none;
+  }
+
+  .signup-right-div {
+    width: 100%;
+    margin-top: -30px;
+  }
+
+  .table-container {
+    margin-bottom: 20px;
+    background-color: #f9fafc;
+  }
+
+  .mobile-number,
+  .mobile-verify {
+    flex: 1;
+  }
+
+  .state-mobile-view,
+  .pincode-mobile-view {
+    flex: 1;
+  }
+
+  .referral-code {
+    flex: 2;
+  }
+
+  .referral-apply-btn-div {
+    flex: 1;
+  }
+
+  .verify-later {
+    margin-top: -10px;
+  }
+
+  .create-account-btn {
+    width: 120px;
+    font-size: 12px;
+    padding: 6px;
+  }
+}
