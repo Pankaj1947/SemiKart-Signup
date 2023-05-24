@@ -184,6 +184,29 @@ select.form-select:focus {
     padding: 10px;
     height: 70px;
   }
+
+  .table-fields {
+    color: #888888;
+  }
+
+  input.form-control {
+    border-color: #999999;
+  }
+
+  input.form-control:focus {
+    box-shadow: none;
+    border-color: #888888;
+  }
+
+  select.form-select {
+    border-color: #999999;
+  }
+
+  select.form-select:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #888888;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -204,6 +227,11 @@ select.form-select:focus {
   .table-container {
     margin-bottom: 20px;
   }
+
+  .table-fields {
+    color: #888888;
+  }
+
   input.form-control {
     border-color: #999999;
   }
