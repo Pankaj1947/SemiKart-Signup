@@ -180,7 +180,7 @@ select.form-select:focus {
 }
 
 @media only screen and (max-width: 720px) {
-     .activation-button {
+  .activation-button {
     padding: 10px;
     height: 70px;
   }
@@ -203,6 +203,24 @@ select.form-select:focus {
 
   .table-container {
     margin-bottom: 20px;
+  }
+  input.form-control {
+    border-color: #999999;
+  }
+
+  input.form-control:focus {
+    box-shadow: none;
+    border-color: #888888;
+  }
+
+  select.form-select {
+    border-color: #999999;
+  }
+
+  select.form-select:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #888888;
   }
 
   .mobile-number,
