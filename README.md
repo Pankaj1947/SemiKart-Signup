@@ -42,7 +42,9 @@
 This project is a result of completing the Semikart Coding Assignment for the role of Front End Developer (Intern). The assignment aimed to test my skills in front-end development, and I utilized HTML, CSS, Bootstrap, JavaScript, and jQuery to create a stylized webpage.
 
 ## Task
+
 The main objectives of the assignment were as follows:
+
 - Develop a responsive webpage that closely follows the provided XD prototype.
 - Implement form validation to ensure all fields are mandatory and display appropriate error messages.
 - Achieve pixel-perfect development by adhering to the design specifications.
@@ -51,7 +53,9 @@ The main objectives of the assignment were as follows:
 - Disable the GSTN field when the user selects "Student" or "Hobbyist" in the "TYPE" field.
 
 ## Key Highlights
+
 During the development process, I focused on the following aspects:
+
 - Teamwork: The code was written with the intention of easy maintainability and extensibility, allowing other developers to work on and enhance the project.
 - Technology Choice: I made thoughtful decisions when selecting tools and technologies, ensuring they were suitable for the task at hand.
 - Readability and Maintainability: The code follows best practices, including clear naming conventions and strategically placed comments to enhance code clarity and maintainability.
@@ -59,7 +63,9 @@ During the development process, I focused on the following aspects:
 - Design Accuracy: I strived to accurately implement the design specifications, paying attention to detail to achieve a pixel-perfect result.
 
 ## Deliverables
+
 The deliverables for this project include:
+
 - A responsive web page with three breakpoints, ensuring a seamless user experience across different devices.
 - Source code in a zip file or a repository, which can be accessed via Google Drive.
 - Optionally, the project is deployed to a platform like Netlify, allowing easy online access and review.
@@ -84,7 +90,6 @@ I am confident that this completed assignment demonstrates my skills as a front-
 	</a>
 </p>
 
-
 ## Getting Started
 
 Following are the simple steps to run this project.
@@ -108,7 +113,7 @@ Following are the simple steps to run this project.
 
 By following these instructions, you can open the HTML website using the Live Server extension in Visual Studio Code.
 
-## Tools and Libraries 
+## Tools and Libraries
 
 - [Bootstrap](https://getbootstrap.com/) - CSS framework for responsive and mobile-first web development.
 - [Toastr](https://codeseven.github.io/toastr/) - JavaScript library for displaying toast notifications.
@@ -119,6 +124,7 @@ By following these instructions, you can open the HTML website using the Live Se
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - High-level programming language for adding interactivity and dynamic behavior to web pages.
 
 ## Contributor ✨
+
 <table>
 <tr>
     <td align="center">
