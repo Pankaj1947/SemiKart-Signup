@@ -117,7 +117,6 @@ By following these instructions, you can open the HTML website using the Live Se
 
 - [Bootstrap](https://getbootstrap.com/) - CSS framework for responsive and mobile-first web development.
 - [Toastr](https://codeseven.github.io/toastr/) - JavaScript library for displaying toast notifications.
-- [Font Awesome](https://fontawesome.com/) - Icon library for adding icons to your web pages.
 - [Google Fonts](https://fonts.google.com/) - Collection of open-source fonts that can be used in your web projects.
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) - Standard markup language for creating web pages.
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - Style sheet language used for describing the look and formatting of a document written in HTML.
