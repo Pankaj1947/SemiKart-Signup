@@ -26,11 +26,10 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#test-credentials">Test Credentials</a></li>
         <li><a href="#tools-and-libraries">Tools And Libraries</a></li>
       </ul>
     </li>
-    <li><a href="#contributors">Contributors</a></li>
+    <li><a href="#contributor">Contributor</a></li>
   </ol>
 </details>
 
@@ -109,7 +108,15 @@ Following are the simple steps to run this project.
 
 By following these instructions, you can open the HTML website using the Live Server extension in Visual Studio Code.
 
+## Tools and Libraries 
 
+- [Bootstrap](https://getbootstrap.com/) - CSS framework for responsive and mobile-first web development.
+- [Toastr](https://codeseven.github.io/toastr/) - JavaScript library for displaying toast notifications.
+- [Font Awesome](https://fontawesome.com/) - Icon library for adding icons to your web pages.
+- [Google Fonts](https://fonts.google.com/) - Collection of open-source fonts that can be used in your web projects.
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) - Standard markup language for creating web pages.
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - Style sheet language used for describing the look and formatting of a document written in HTML.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - High-level programming language for adding interactivity and dynamic behavior to web pages.
 
 ## Contributor ✨
 <table>
